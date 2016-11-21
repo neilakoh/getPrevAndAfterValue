@@ -4,8 +4,8 @@ for(var i in digits) {
   if(digits[i] === 3) {
     var digitLength = digits.length - 1;
     if(parseInt([i]) !== digitLength) {
-      var getPrevNum = parseInt([i]) + 1;
-      storeAllPrevious.push(digits[getPrevNum])
+      var getAfterNum = parseInt([i]) + 1;
+      storeAllPrevious.push(digits[getAfterNum])
     }
   }
 }
